@@ -1,7 +1,7 @@
 
 public class Gajah extends Animal implements Herbivora{
-	String jenis;
-	double panjangBelalai;
+	private String jenis;
+	private double panjangBelalai;
 
 	public Gajah(String name, int kaki, String jns, double belalai) {
 		super(name, kaki);

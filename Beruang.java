@@ -1,7 +1,7 @@
 
 public class Beruang extends Animal implements Karnivora, Herbivora{
-	int berat;
-	String habitat;
+	private int berat;
+	private String habitat;
 
 	public Beruang(String name, int kaki, int weight, String tinggal) {
 		super(name, kaki);

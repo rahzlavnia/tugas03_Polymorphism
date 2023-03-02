@@ -1,7 +1,7 @@
 
 public class Kucing extends Animal implements Karnivora{
-	String ras;
-	int umur;
+	private String ras;
+	private int umur;
 
 	public Kucing(String name, int kaki, String r, int age) {
 		super(name, kaki);
